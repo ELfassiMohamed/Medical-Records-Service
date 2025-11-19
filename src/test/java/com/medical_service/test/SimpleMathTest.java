@@ -14,7 +14,7 @@ public class SimpleMathTest {
     @Test
     public void testAdd() {
         assertEquals(5, simpleMath.add(2, 3));
-        assertEquals(0, simpleMath.add(-1, 2));
+        assertEquals(0, simpleMath.add(-2, 2));
     }
 
     @Test
